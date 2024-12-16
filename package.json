@@ -2,9 +2,15 @@
   "author": "Ali Sajid Imami",
   "description": "A github action to collect, parse and store Google PageSpeed Insights data and generate badges for a README",
   "devDependencies": {
+    "@eslint/eslintrc": "^3.2.0",
+    "@eslint/js": "^9.17.0",
+    "@stylistic/eslint-plugin": "^2.12.1",
     "@types/node": "20",
+    "eslint": "^9.17.0",
+    "globals": "^15.13.0",
     "ts-node": "^10.9.2",
-    "typescript": "^5.7.2"
+    "typescript": "^5.7.2",
+    "typescript-eslint": "^8.18.1"
   },
   "keywords": [
     "actions",
@@ -17,6 +23,7 @@
   "name": "pagespeed-insights-badge-action",
   "private": true,
   "scripts": {
+    "lint": "eslint",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "version": "0.0.1"
