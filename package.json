@@ -1,18 +1,18 @@
 {
-  "name": "pagespeed-insights-badge-action",
-  "version": "0.0.1",
+  "author": "Ali Sajid Imami",
   "description": "A github action to collect, parse and store Google PageSpeed Insights data and generate badges for a README",
-  "main": "lib/main.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
   "keywords": [
     "actions",
     "node",
     "lighthouse",
     "pagespeed"
   ],
+  "license": "MIT",
+  "main": "lib/main.js",
+  "name": "pagespeed-insights-badge-action",
   "private": true,
-  "author": "Ali Sajid Imami",
-  "license": "MIT"
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "version": "0.0.1"
 }
