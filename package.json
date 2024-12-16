@@ -1,6 +1,11 @@
 {
   "author": "Ali Sajid Imami",
   "description": "A github action to collect, parse and store Google PageSpeed Insights data and generate badges for a README",
+  "devDependencies": {
+    "@types/node": "20",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.7.2"
+  },
   "keywords": [
     "actions",
     "node",
