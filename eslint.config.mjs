@@ -9,9 +9,8 @@ export default tseslint.config(
     {
         ignores: ['**/dist/**', '**/lib/**', 'docs/**']
     },
-    tseslint.configs.strict,
-    tseslint.configs.stylistic,
-
+    tseslint.configs.strictTypeChecked,
+    tseslint.configs.stylisticTypeChecked,
     {
         files: ['**/*.js', '**/*.cjs', '**/*.mjs'],
         ...tseslint.configs.disableTypeChecked
