@@ -3,17 +3,18 @@
         "esModuleInterop": true,
         "forceConsistentCasingInFileNames": true,
         "module": "commonjs",
-        "outDir": "./dist",
+        "noImplicitAny": true,
+        "outDir": "./lib",
         "rootDir": "./src",
         "skipLibCheck": true,
         "strict": true,
-        "target": "ESNext"
+        "target": "es6"
     },
     "exclude": [
         "node_modules",
         "**/*.spec.ts"
     ],
     "include": [
-        "src/**/*"
+        "src/**/*.ts"
     ]
 }
