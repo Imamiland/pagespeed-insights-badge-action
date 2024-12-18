@@ -109,3 +109,6 @@ megalinter-reports/*
 docs/docs
 .docusaurus
 .cache-loader
+
+# Ignore the env files
+*.env.*
