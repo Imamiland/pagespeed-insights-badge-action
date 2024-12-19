@@ -5,7 +5,7 @@
 import { PageSpeedInsightsResponse } from '../types/pagespeed-response'
 
 export class PageSpeedApiClient {
-  async fetchPageSpeedData(url: string): Promise<PageSpeedInsightsResponse> {
+  async fetchPageSpeedData(url: string): Promise<void> {
     // Implementation pending
   }
 }
