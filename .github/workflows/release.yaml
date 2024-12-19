@@ -10,6 +10,16 @@ permissions:
   contents: read
 
 jobs:
+  optimize_ci:
+    runs-on: ubuntu-latest
+    outputs:
+      skip: ${{ steps.check_skip.outputs.skip }}
+    steps:
+      - name: Optimize CI
+        id: check_skip
+        uses: withgraphite/graphite-ci-action@main
+        with:
+          graphite_token: ${{ secrets.GRAPHITE_TOKEN }}
   release:
     name: Semantic Release
     runs-on: ubuntu-latest
