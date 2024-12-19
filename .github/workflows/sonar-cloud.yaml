@@ -23,8 +23,11 @@ jobs:
           disable-sudo: true
           egress-policy: block
           allowed-endpoints: >
-            api.github.com:443
+            api.sonarcloud.io:443
             github.com:443
+            registry.npmjs.org:443
+            scanner.sonarcloud.io:443
+            sonarcloud.io:443
             objects.githubusercontent.com:443
 
       - name: Checkout repository
